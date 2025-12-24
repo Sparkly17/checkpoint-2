@@ -1,0 +1,29 @@
+.collection .banner-top-info{
+  color: white;
+}
+
+.collection{
+  margin-bottom: 40px;
+}
+
+.collection-act-doc{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.checklist-report-title{
+  margin-bottom: 20px;
+}
+
+.checklist-report{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.checklist-report-p-title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 8px;
+}

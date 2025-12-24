@@ -1,0 +1,481 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 10px 24px;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-link {
+  line-height: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+
+.search-input {
+  height: 40px;
+  width: 350px;
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+  stroke: none;
+  border-left: 1px solid #D9D9D9;
+  border-right: 1px solid #D9D9D9;
+}
+
+.footer {
+  height: 450px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 170px 170px 170px 1fr;
+  gap: 135px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  margin-bottom: 8px;
+}
+
+.footer-contacts {
+  height: 358px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner {
+  width: 100%;
+  height: 380px;
+  padding: 40px;
+  position: relative;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 650px;
+}
+
+.banner-img {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+
+.sort-btn {
+  display: flex;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #E8E2DA;
+  padding: 10px 16px;
+  height: 40px;
+}
+
+.sort-btn-img {
+  margin-right: 8px;
+}
+
+.sort-btn.active {
+  background-color: #E8E2DA;
+}
+
+.sort-btns {
+  display: flex;
+  gap: 16px;
+}
+
+.sort-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.block {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.themes-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.themes-row {
+  display: grid;
+  grid-template-columns: 285px 285px 285px;
+  gap: 20px;
+}
+
+.theme {
+  position: relative;
+  width: 285px;
+  height: 146px;
+}
+
+.theme-title {
+  margin: 16px;
+}
+
+.theme-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img {
+  display: block;
+}
+
+.card-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 12px;
+  color: white;
+}
+
+.card-title {
+  margin: 0 0 8px 0;
+  position: static;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.card-tags {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.tag {
+  background-color: white;
+  padding: 8px 10px;
+  color: black;
+}
+
+.left-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.crumbs {
+  display: flex;
+  gap: 10px;
+  color: #C2C6D0;
+}
+
+.crumb:last-child {
+  color: #2F3136;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-top {
+  margin-top: 40px;
+  position: relative;
+}
+
+.banner-top-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.banner-top-header-img {
+  align-self: start;
+}
+
+.banner-top-title {
+  width: 1100px;
+}
+
+.banner-top-bottom {
+  margin-top: 10px;
+  position: relative;
+}
+
+.banner-top-bottom .card-tags {
+  left: 40px;
+  bottom: 20px;
+  top: inherit;
+  right: inherit;
+}
+
+.banner-top-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+  position: absolute;
+  top: 20px;
+}
+
+.actdoc {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 60px;
+}
+
+.actdoc-point {
+  width: 285px;
+  border-bottom: 4px solid #D9D9D9;
+  position: absolute;
+}
+
+.actdoc-point.point1 {
+  bottom: 441px;
+  left: 0;
+}
+
+.actdoc-point.point2 {
+  bottom: 307px;
+  left: 0;
+}
+
+.actdoc-point.point3 {
+  bottom: 731px;
+  right: 70px;
+}
+
+.actdoc-point.point4 {
+  bottom: 517px;
+  right: 70px;
+}
+
+.actdoc-point.point5 {
+  bottom: 285px;
+  right: 70px;
+}
+
+article section {
+  display: grid;
+  gap: 40px;
+}
+
+.mobile {
+  display: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.card.lower {
+  .card-title{
+    margin: 0;
+    margin-bottom: 1px;
+  }
+  .card-overlay {
+    position: inherit;
+    padding: 0;
+    color: black;
+    margin: 0;
+    margin-top: 16px;
+  }
+}
+
+.card.black-text .card-overlay {
+  color: black;
+}
+
+.card.white-text .card-overlay {
+  color: white;
+}
+
+.cards-section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tag{
+  img{
+    width: 20px;
+    height: 20px;
+  }
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+}
+
+@media (max-width: 375px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: inherit;
+  }
+  .block {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .img-checklist {
+    margin-top: 16px;
+    margin-bottom: 36px;
+  }
+
+  .other {
+    width: 327px;
+  }
+
+  .search-icon {
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+
+  .other-info {
+    gap: 24px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 74px 113px 95px;
+    grid-template-rows: 92px 1fr;
+    gap: 20px;
+    row-gap: 48px;
+    height: auto;
+  }
+
+  .footer-icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+  }
+
+  .footer-icon img {
+    width: 74px;
+  }
+
+  .footer-contacts {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .footer-links.first {
+    grid-column: 2 / 3;
+  }
+
+  .footer-links.second {
+    grid-column: 3 / 4;
+  }
+
+  .themes-block {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .themes-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    row-gap-gap: 24px;
+  }
+
+  .theme {
+    width: 158px;
+    height: 180px;
+  }
+
+  .chapter-page.banner{
+    height: 340px;
+    padding: 24px;
+    .banner-content{
+      height: fit-content;
+      justify-content: start;
+      gap: 15px;
+      width: 100%;
+    }
+
+    .banner .b80{
+      width: 100%;
+    }
+
+    .banner-img{
+      right: 38px;
+    }
+  }
+
+  .tag{
+    img{
+      width: 16px;
+      height: 16px;
+    }
+
+  }
+
+}
+
+body{
+  position: relative;
+  max-width: 1280px;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.chapter-page.banner .banner-text{
+  color: black;
+}
+.chapter-page.chp2.banner{
+  .banner-text, .banner-title{
+    color: white;
+  }
+  background-color: #262626;
+}
+
+a{
+  color: black;
+  text-decoration: none !important;
+}

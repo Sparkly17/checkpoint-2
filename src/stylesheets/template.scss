@@ -1,0 +1,35 @@
+.doc{
+  margin-top: 40px;
+}
+
+.temp-buttons{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.doc-crumbs{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.temp-button-get-pdf{
+  background-color: #262626;
+  padding: 12px 20px;
+  width: 285px;
+  height: 56px;
+  border: none;
+  outline: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.temp-buttons-share{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
