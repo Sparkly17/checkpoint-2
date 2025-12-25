@@ -95,7 +95,7 @@ class Main extends React.Component {
                 <img className='mobile arrow-yellow' src={myellow}/>
                 <section className={'top'}>
                         <div className={'top-left'}>
-                            <a href={'/checklist'}>
+                            <a href={'#/checklist'}>
                                 <img className={'left-img desktop'} src={main}/>
                                 <img className={'left-img mobile'} src={mmain}/>
                                 <h1 className={'left-title b48-48 m-b24'}>Как найти хорошее объявление о сдаче жилья</h1>
@@ -107,7 +107,7 @@ class Main extends React.Component {
                         </div>
 
                     <div className={'friend'}>
-                        <a href={'/about'}>
+                        <a href={'#/about'}>
                             <h2 className={'b40 m-b32'}>Чекпоинт — лучший друг зумера. Давай знакомиться!</h2>
                             <img className={'friend-icon'} src={goto}/>
                         </a>
@@ -135,7 +135,7 @@ class Main extends React.Component {
                             <p className={'chapter-top-link n20 m-n20'}>В раздел <img src={arrow}/></p>
                         </div>
                         <div className={'chapter-items'}>
-                            <a href={'/article'}>
+                            <a href={'#/article'}>
                                 <Card mimage={mcard_8} image={card_8} title={'Что проверить до приезда хозяина квартиры'} tags={['Статья', 'Жилье']}/>
                             </a>
                             <Card mimage={mcard_3} image={card_3} title={'Переехал в Москву и остался без денег'} type={'lower white-text'} tags={['Разбор-кейса', 'Жилье']}/>
@@ -161,7 +161,7 @@ class Main extends React.Component {
                             <p className={'chapter-top-link n20 m-n20'}>В раздел <img src={arrowDoc}/></p>
                         </div>
                         <div className={'chapter-items'}>
-                            <a href={'/template'}>
+                            <a href={'#/template'}>
                                 <Card mimage={mcard_4} image={card_4} type={'black-text'} title={'Акт приема-передачи квартиры: шаблон'} tags={['Статья', 'Работа']}/>
                             </a>
                             <Card mimage={mcard4} image={card4} title={'Как не потонуть в документах'} tags={['Статья', 'Работа']}/>
@@ -176,7 +176,7 @@ class Main extends React.Component {
                         <p className={'chapter-top-link n20 m-n20'}>Все подборки <img src={arrowBlack}/></p>
                     </div>
                     <div className={'chapter-items'}>
-                        <a href={'/collection'}>
+                        <a href={'#/collection'}>
                             <Card fonts={'b40 m-b24'} mimage={mcard6} image={card6} title={'Набор выживания для переезда: самые важные шпаргалки'} tags={['Жилье', 'Документы', 'Финансы']}/>
                         </a>
                         <Card fonts={'b40 m-b24'} mimage={mcard7} image={card7} title={'Подборка «Финансовая грамотность»'} tags={['Документы', 'Финансы']}/>
@@ -205,7 +205,7 @@ class Main extends React.Component {
                         <p className={'chapter-top-link n20 m-n20'}>В раздел <img src={arrowBlack}/></p>
                     </div>
                     <div className={'chapter-items'}>
-                        <a href={'/template'}>
+                        <a href={'#/template'}>
                             <Card mimage={mcard13} image={card_13} title={'Акт приема-передачи квартиры'} type={'black-text'} tags={['Шаблон', 'Документы']}/>
                         </a>
                         <Card mimage={mcard14} image={card13} title={'Как все успевать по учебе'} type={'black-text'} tags={['Чек-лист', 'Учеба']}/>

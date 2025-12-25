@@ -31,8 +31,20 @@ const routes = {
     '/collection': { label: 'Collection', element: <Collection /> }
 };
 
+const getHashPath = () => {
+    const hash = window.location.hash || '#/';
+    const rawPath = hash.startsWith('#') ? hash.slice(1) : hash;
+    return rawPath.startsWith('/') ? rawPath : `/${rawPath}`;
+};
+
 const Router = () => {
-    const [path, setPath] = useState(window.location.pathname);
+    const [path, setPath] = useState(getHashPath());
+
+    useEffect(() => {
+        if (!window.location.hash) {
+            window.location.hash = '/';
+        }
+    }, []);
 
     useEffect(() => {
         const handler = (e) => {
@@ -40,15 +52,29 @@ const Router = () => {
             if (!a) return;
 
             const href = a.getAttribute("href");
-            if (!href?.startsWith("/")) return;
+            if (!href) return;
 
-            e.preventDefault();
-            window.history.pushState({}, "", href);
-            setPath(href);
+            if (href.startsWith('#/')) {
+                return;
+            }
+
+            if (href.startsWith("/")) {
+                e.preventDefault();
+                window.location.hash = href;
+                return;
+            }
+        };
+
+        const onHashChange = () => {
+            setPath(getHashPath());
         };
 
         document.addEventListener("click", handler);
-        return () => document.removeEventListener("click", handler);
+        window.addEventListener("hashchange", onHashChange);
+        return () => {
+            document.removeEventListener("click", handler);
+            window.removeEventListener("hashchange", onHashChange);
+        };
     }, []);
 
     useEffect(() => {

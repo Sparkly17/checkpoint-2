@@ -9,10 +9,10 @@ class Header extends React.Component {
     render() {
         return (
             <header className={classNames("header")}>
-                <a href={'/'}><img className={'desktop'} src={logo}/></a>
-                <img className={'mobile'} src={mLogo}/>
+                <a href={'#/'}><img className={'desktop'} src={logo}/></a>
+                <a href={'#/'}><img className={'mobile'} src={mLogo}/></a>
                 <nav className={classNames("nav")}>
-                    <a className={classNames("nav-link", "n16", "m-n14")} href={'/about'}>О нас</a>
+                    <a className={classNames("nav-link", "n16", "m-n14")} href={'#/about'}>О нас</a>
                     <a className={classNames("nav-link", "n16", "m-n14")}>
                         Тематики
                         <img className={'desktop'} src={arrow}/>

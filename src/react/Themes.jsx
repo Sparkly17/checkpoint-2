@@ -20,7 +20,7 @@ class Themes extends React.Component {
                 <h2 className={'b48 m-b30-30'}>Тематики</h2>
                 <div className={'themes'}>
                     <div className={'themes-row'}>
-                            <a href='/chapter' style={{backgroundColor: '#E8E2DA'}} className="theme">
+                            <a href='#/chapter' style={{backgroundColor: '#E8E2DA'}} className="theme">
                                 <h3 className={'theme-title b24 m-b20'}>Жилье</h3>
                                 <img className={'theme-img desktop'} src={house}/>
                                 <img className={'theme-img mobile'} src={mhouse}/>

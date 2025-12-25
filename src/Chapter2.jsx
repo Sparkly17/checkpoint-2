@@ -42,7 +42,7 @@ class Chapter2 extends React.Component {
                                   tags={['Документы', 'Работа']} mimage={mcard2} image={card2}/>
                         </div>
                         <div className={'cards-list'} style={{gridTemplateColumns: "692px 488px"}}>
-                            <a href={'/collection'}>
+                            <a href={'#/collection'}>
                                 <Card title={'Набор выживания для переезда: самые важные шпаргалки'}
                                       tags={['Финансы', 'Жилье', 'Работа']} mimage={mcard3} image={card3}/>
                             </a>

@@ -7,17 +7,17 @@ class Header extends React.Component {
         return (
             <footer className={classNames("footer block")}>
                 <div className={classNames("footer-links first")}>
-                    <a className={"sb20 m-b14"} href={'/chapter'}>Жилье</a>
+                    <a className={"sb20 m-b14"} href={'#/chapter'}>Жилье</a>
                     <p className={"sb20 m-b14"}>Финансы</p>
                     <p className={"sb20 m-b14"}>Документы</p>
                     <p className={"sb20 m-b14"}>Работа</p>
-                    <p className={"sb20 m-b14"}>Путешествия</p>
-                    <p className={"sb20 m-b14"}>Психология</p>
+                    <p className={"sb20 m-b14"}>Учеба</p>
+                    <p className={"sb20 m-b14"}>Социализация</p>
                     <p className={"sb20 m-b14"}><br/></p>
-                    <a href={'/styleguide'} className={"sb20 m-b14"}>Стайлгайд</a>
+                    <a href={'#/styleguide'} className={"sb20 m-b14"}>Стайлгайд</a>
                 </div>
                 <div className={classNames("footer-links second")}>
-                    <a href={'/chapter-2'} className={"sb20 m-b14"}>Подборки</a>
+                    <a href={'#/chapter-2'} className={"sb20 m-b14"}>Подборки</a>
                     <p className={"sb20 m-b14"}>Статьи</p>
                     <p className={"sb20 m-b14"}>Гайды</p>
                     <p className={"sb20 m-b14"}>Чек-листы</p>

@@ -17505,18 +17505,20 @@ var Header = /*#__PURE__*/function (_React$Component) {
       return /*#__PURE__*/react.createElement("header", {
         className: classnames_default()("header")
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/'
+        href: '#/'
       }, /*#__PURE__*/react.createElement("img", {
         className: 'desktop',
         src: logo_namespaceObject
-      })), /*#__PURE__*/react.createElement("img", {
+      })), /*#__PURE__*/react.createElement("a", {
+        href: '#/'
+      }, /*#__PURE__*/react.createElement("img", {
         className: 'mobile',
         src: m_logo_namespaceObject
-      }), /*#__PURE__*/react.createElement("nav", {
+      })), /*#__PURE__*/react.createElement("nav", {
         className: classnames_default()("nav")
       }, /*#__PURE__*/react.createElement("a", {
         className: classnames_default()("nav-link", "n16", "m-n14"),
-        href: '/about'
+        href: '#/about'
       }, "\u041E \u043D\u0430\u0441"), /*#__PURE__*/react.createElement("a", {
         className: classnames_default()("nav-link", "n16", "m-n14")
       }, "\u0422\u0435\u043C\u0430\u0442\u0438\u043A\u0438", /*#__PURE__*/react.createElement("img", {
@@ -17574,7 +17576,7 @@ var Footer_Header = /*#__PURE__*/function (_React$Component) {
         className: classnames_default()("footer-links first")
       }, /*#__PURE__*/react.createElement("a", {
         className: "sb20 m-b14",
-        href: '/chapter'
+        href: '#/chapter'
       }, "\u0416\u0438\u043B\u044C\u0435"), /*#__PURE__*/react.createElement("p", {
         className: "sb20 m-b14"
       }, "\u0424\u0438\u043D\u0430\u043D\u0441\u044B"), /*#__PURE__*/react.createElement("p", {
@@ -17583,17 +17585,17 @@ var Footer_Header = /*#__PURE__*/function (_React$Component) {
         className: "sb20 m-b14"
       }, "\u0420\u0430\u0431\u043E\u0442\u0430"), /*#__PURE__*/react.createElement("p", {
         className: "sb20 m-b14"
-      }, "\u041F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F"), /*#__PURE__*/react.createElement("p", {
+      }, "\u0423\u0447\u0435\u0431\u0430"), /*#__PURE__*/react.createElement("p", {
         className: "sb20 m-b14"
-      }, "\u041F\u0441\u0438\u0445\u043E\u043B\u043E\u0433\u0438\u044F"), /*#__PURE__*/react.createElement("p", {
+      }, "\u0421\u043E\u0446\u0438\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F"), /*#__PURE__*/react.createElement("p", {
         className: "sb20 m-b14"
       }, /*#__PURE__*/react.createElement("br", null)), /*#__PURE__*/react.createElement("a", {
-        href: '/styleguide',
+        href: '#/styleguide',
         className: "sb20 m-b14"
       }, "\u0421\u0442\u0430\u0439\u043B\u0433\u0430\u0439\u0434")), /*#__PURE__*/react.createElement("div", {
         className: classnames_default()("footer-links second")
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/chapter-2',
+        href: '#/chapter-2',
         className: "sb20 m-b14"
       }, "\u041F\u043E\u0434\u0431\u043E\u0440\u043A\u0438"), /*#__PURE__*/react.createElement("p", {
         className: "sb20 m-b14"
@@ -17977,12 +17979,14 @@ var Chapter = /*#__PURE__*/function (_React$Component) {
         style: {
           gridTemplateColumns: "1fr 1fr 1fr 1fr"
         }
+      }, /*#__PURE__*/react.createElement("a", {
+        href: "#/article"
       }, /*#__PURE__*/react.createElement(react_Card, {
         title: 'Как снять квартиру в чужом городе?',
         tags: ['Статья'],
         mimage: mimg1_namespaceObject,
         image: img1_namespaceObject
-      }), /*#__PURE__*/react.createElement(react_Card, {
+      })), /*#__PURE__*/react.createElement(react_Card, {
         title: 'Как снять показания счетчиков',
         tags: ['Статья'],
         mimage: mimg2_namespaceObject,
@@ -18129,7 +18133,8 @@ var Themes = /*#__PURE__*/function (_React$Component) {
         className: 'themes'
       }, /*#__PURE__*/react.createElement("div", {
         className: 'themes-row'
-      }, /*#__PURE__*/react.createElement("div", {
+      }, /*#__PURE__*/react.createElement("a", {
+        href: "#/chapter",
         style: {
           backgroundColor: '#E8E2DA'
         },
@@ -18902,6 +18907,18 @@ const mimg14_namespaceObject = __webpack_require__.p + "images/d1945c36370aa5b51
 const mimg15_namespaceObject = __webpack_require__.p + "images/cd8f03a877bc1923fdd4.png";
 ;// ./src/images/main/mimg16.png
 const mimg16_namespaceObject = __webpack_require__.p + "images/d4c95d3c4dad9d5bc3cf.png";
+;// ./src/images/main/blue.svg
+const blue_namespaceObject = __webpack_require__.p + "images/d45ad8c362f50762c3b5.svg";
+;// ./src/images/main/mblue.svg
+const mblue_namespaceObject = __webpack_require__.p + "images/89c9f12f4a1de3245273.svg";
+;// ./src/images/main/pink.svg
+const pink_namespaceObject = __webpack_require__.p + "images/63801e837f4dafbedf9d.svg";
+;// ./src/images/main/mpink.svg
+const mpink_namespaceObject = __webpack_require__.p + "images/167203819dfbd117e397.svg";
+;// ./src/images/main/yellow.svg
+const yellow_namespaceObject = __webpack_require__.p + "images/7b4f2c9167dc6106aeaf.svg";
+;// ./src/images/main/myellow.svg
+const myellow_namespaceObject = __webpack_require__.p + "images/9dfca5017519852047ab.svg";
 ;// ./src/Main.jsx
 function Main_typeof(o) { "@babel/helpers - typeof"; return Main_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, Main_typeof(o); }
 function Main_classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
@@ -18986,6 +19003,12 @@ function Main_setPrototypeOf(t, e) { return Main_setPrototypeOf = Object.setProt
 
 
 
+
+
+
+
+
+
 var Main = /*#__PURE__*/function (_React$Component) {
   function Main() {
     Main_classCallCheck(this, Main);
@@ -18995,12 +19018,30 @@ var Main = /*#__PURE__*/function (_React$Component) {
   return Main_createClass(Main, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(react_Header, null), /*#__PURE__*/react.createElement("section", {
+      return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(react_Header, null), /*#__PURE__*/react.createElement("img", {
+        className: "desktop arrow-blue",
+        src: blue_namespaceObject
+      }), /*#__PURE__*/react.createElement("img", {
+        className: "desktop arrow-pink",
+        src: pink_namespaceObject
+      }), /*#__PURE__*/react.createElement("img", {
+        className: "desktop arrow-yellow",
+        src: yellow_namespaceObject
+      }), /*#__PURE__*/react.createElement("img", {
+        className: "mobile arrow-blue",
+        src: mblue_namespaceObject
+      }), /*#__PURE__*/react.createElement("img", {
+        className: "mobile arrow-pink",
+        src: mpink_namespaceObject
+      }), /*#__PURE__*/react.createElement("img", {
+        className: "mobile arrow-yellow",
+        src: myellow_namespaceObject
+      }), /*#__PURE__*/react.createElement("section", {
         className: 'top'
       }, /*#__PURE__*/react.createElement("div", {
         className: 'top-left'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/checklist'
+        href: '#/checklist'
       }, /*#__PURE__*/react.createElement("img", {
         className: 'left-img desktop',
         src: main_namespaceObject
@@ -19014,11 +19055,11 @@ var Main = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react.createElement(react_Tag, {
         tag: 'Чек-лист'
       }), /*#__PURE__*/react.createElement(react_Tag, {
-        tag: 'Быт'
+        tag: 'Жилье'
       })))), /*#__PURE__*/react.createElement("div", {
         className: 'friend'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/about'
+        href: '#/about'
       }, /*#__PURE__*/react.createElement("h2", {
         className: 'b40 m-b32'
       }, "\u0427\u0435\u043A\u043F\u043E\u0438\u043D\u0442 \u2014 \u043B\u0443\u0447\u0448\u0438\u0439 \u0434\u0440\u0443\u0433 \u0437\u0443\u043C\u0435\u0440\u0430. \u0414\u0430\u0432\u0430\u0439 \u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F!"), /*#__PURE__*/react.createElement("img", {
@@ -19035,7 +19076,7 @@ var Main = /*#__PURE__*/function (_React$Component) {
         image: clean_namespaceObject,
         mimage: clean_namespaceObject,
         title: 'Статья для тех, у кого нет времени на уборку',
-        tags: ['Статья', 'Быт']
+        tags: ['Статья', 'Жилье']
       })), /*#__PURE__*/react.createElement("section", {
         className: 'solve'
       }, /*#__PURE__*/react.createElement("h2", {
@@ -19075,7 +19116,7 @@ var Main = /*#__PURE__*/function (_React$Component) {
       }))), /*#__PURE__*/react.createElement("div", {
         className: 'chapter-items'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/article'
+        href: '#/article'
       }, /*#__PURE__*/react.createElement(react_Card, {
         mimage: mimg8_namespaceObject,
         image: img8_namespaceObject,
@@ -19133,7 +19174,7 @@ var Main = /*#__PURE__*/function (_React$Component) {
       }))), /*#__PURE__*/react.createElement("div", {
         className: 'chapter-items'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/template'
+        href: '#/template'
       }, /*#__PURE__*/react.createElement(react_Card, {
         mimage: mimg_4_namespaceObject,
         image: img4_namespaceObject,
@@ -19163,7 +19204,7 @@ var Main = /*#__PURE__*/function (_React$Component) {
       }))), /*#__PURE__*/react.createElement("div", {
         className: 'chapter-items'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/collection'
+        href: '#/collection'
       }, /*#__PURE__*/react.createElement(react_Card, {
         fonts: 'b40 m-b24',
         mimage: main_mimg6_namespaceObject,
@@ -19233,7 +19274,7 @@ var Main = /*#__PURE__*/function (_React$Component) {
       }))), /*#__PURE__*/react.createElement("div", {
         className: 'chapter-items'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/template'
+        href: '#/template'
       }, /*#__PURE__*/react.createElement(react_Card, {
         mimage: mimg13_namespaceObject,
         image: img_13_namespaceObject,
@@ -20051,7 +20092,7 @@ var Checklist_Article = /*#__PURE__*/function (_React$Component) {
       }))), /*#__PURE__*/react.createElement("div", {
         className: 'chapter-items'
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/collection'
+        href: '#/collection'
       }, /*#__PURE__*/react.createElement(react_Card, {
         fonts: 'b40 m-b24',
         mimage: main_mimg6_namespaceObject,
@@ -20292,7 +20333,7 @@ var Chapter2 = /*#__PURE__*/function (_React$Component) {
           gridTemplateColumns: "692px 488px"
         }
       }, /*#__PURE__*/react.createElement("a", {
-        href: '/collection'
+        href: '#/collection'
       }, /*#__PURE__*/react.createElement(react_Card, {
         title: 'Набор выживания для переезда: самые важные шпаргалки',
         tags: ['Финансы', 'Жилье', 'Работа'],
@@ -20384,25 +20425,45 @@ var routes = {
     element: /*#__PURE__*/react.createElement(src_Collection, null)
   }
 };
+var getHashPath = function getHashPath() {
+  var hash = window.location.hash || '#/';
+  var rawPath = hash.startsWith('#') ? hash.slice(1) : hash;
+  return rawPath.startsWith('/') ? rawPath : "/".concat(rawPath);
+};
 var Router = function Router() {
   var _routes$path$element, _routes$path;
-  var _useState = (0,react.useState)(window.location.pathname),
+  var _useState = (0,react.useState)(getHashPath()),
     _useState2 = _slicedToArray(_useState, 2),
     path = _useState2[0],
     setPath = _useState2[1];
+  (0,react.useEffect)(function () {
+    if (!window.location.hash) {
+      window.location.hash = '/';
+    }
+  }, []);
   (0,react.useEffect)(function () {
     var handler = function handler(e) {
       var a = e.target.closest("a");
       if (!a) return;
       var href = a.getAttribute("href");
-      if (!(href !== null && href !== void 0 && href.startsWith("/"))) return;
-      e.preventDefault();
-      window.history.pushState({}, "", href);
-      setPath(href);
+      if (!href) return;
+      if (href.startsWith('#/')) {
+        return;
+      }
+      if (href.startsWith("/")) {
+        e.preventDefault();
+        window.location.hash = href;
+        return;
+      }
+    };
+    var onHashChange = function onHashChange() {
+      setPath(getHashPath());
     };
     document.addEventListener("click", handler);
+    window.addEventListener("hashchange", onHashChange);
     return function () {
-      return document.removeEventListener("click", handler);
+      document.removeEventListener("click", handler);
+      window.removeEventListener("hashchange", onHashChange);
     };
   }, []);
   (0,react.useEffect)(function () {

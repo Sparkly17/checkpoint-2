@@ -62,8 +62,10 @@ class Chapter extends React.Component {
                     </section>
                     <section className={'cards-section'}>
                         <div className={'cards-list'} style={{gridTemplateColumns: "1fr 1fr 1fr 1fr"}}>
+                            <a href='#/article'>
                             <Card title={'Как снять квартиру в чужом городе?'} tags={['Статья']} mimage={mcard1}
                                   image={card1}/>
+                            </a>
                             <Card title={'Как снять показания счетчиков'} tags={['Статья']} mimage={mcard2}
                                   image={card2}/>
                             <Card title={'Переехал в Москву и остался без денег'} type={"lower"} mimage={mcard3}

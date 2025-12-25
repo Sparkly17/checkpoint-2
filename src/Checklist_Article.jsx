@@ -118,7 +118,7 @@ class Checklist_Article extends React.Component {
                         <p className={'chapter-top-link n20 m-n20'}>Все подборки <img src={arrowBlack}/></p>
                     </div>
                     <div className={'chapter-items'}>
-                        <a href={'/collection'}>
+                        <a href={'#/collection'}>
                             <Card fonts={'b40 m-b24'} mimage={mcard6} image={card6} title={'Набор выживания для переезда: самые важные шпаргалки'} tags={['Жилье', 'Документы', 'Финансы']}/>
                         </a>
                         <Card fonts={'b40 m-b24'} mimage={mcard7} image={card7} title={'Подборка «Финансовая грамотность»'} tags={['Документы', 'Финансы']}/>
